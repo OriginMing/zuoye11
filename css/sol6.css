@@ -485,6 +485,8 @@ ul li{
 .mid{
     margin: 0 auto;
     width: 1200px;
+    height: 750px;
+    
 }
 .midT{
     float: left;
@@ -529,27 +531,96 @@ ul li{
     font-size: 16px;
     color: #fff;
     background-color: rgba(0,0,0,.7);
+    float:right;
+    margin-right: 60px;
+   font-size: 16px;
+   height:50px ;
 }
-
 .about-news-txt span{
-    display: inline-block;
     padding: 15px 8px;
-    background-color: rgba(175, 25, 37,.7);
+    vertical-align: 20px;
+    margin-right: 3px;
+
+   
 }
 .about-news-txt h3 {
     display: inline-block;
-    width: 450px;
-    padding: 15px 8px;
+    width: 85%;
+    padding: 14.5px 8px;
     font-size: 16px;
     overflow: hidden;
     /* text-overflow: ellipsis; */
     white-space: nowrap;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    background-color: rgba(175, 25, 37,.7);
+}
+.about-newslist{
+    background-color: #EEEEEE;
+    width: 555px;
+    height: 250px;
+    float: right;
+    margin-right: 60px;
+}
+.about-newslist ul{
+    padding: 0px;
+    margin: 0
+}
+.about-newslist ul li{
+   
+    border: 1px solid red;
+}
+.about-newslist  h3{
+    display: inline-block;
+   
+    font-size: 14px;
+
+}
+.about-newslist span{
+    float: left;
+    font-size: 12px;
+    margin-left: 15px;
+    line-height: 49.2px;
+    margin-right: 5px;
+}
+.leaderHead{
+    /* background-color: #B81C23; */
+    margin: 0 auto;
+    width: 1200px;
+   
+   
+}
+.leaderBody{
+    background-color: aqua;
+    width: 1200px;
+    margin: 0 auto;
+}
+.leaderBody .left{
+    /* background-color: blue; */
+    float: left;
+    margin-right: 100px;
 }
 
-
+.leaderBody .right{
+    /* background-color: black; */
+    float: right;
+    width: 60%;
+    background-color: #fff;
+}
+.grey{
+    background-color: #eee;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    z-index: -99;
+}
+.fooooter{
+    padding-top: 50px;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
 
 
 
